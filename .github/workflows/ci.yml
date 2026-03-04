@@ -48,6 +48,8 @@ jobs:
         ./mvnw clean package -DskipTests
 
     - name: Build with Vite (Frontend)
+      env:
+        CI: false
       run: |
         cd frontend
         npm install
