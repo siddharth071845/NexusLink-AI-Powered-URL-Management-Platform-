@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/ui/button.tsx","./src/components/ui/card.tsx","./src/components/ui/input.tsx","./src/pages/admindashboard.tsx","./src/pages/analyticspage.tsx","./src/pages/authpage.tsx","./src/pages/dashboardpage.tsx","./src/pages/landingpage.tsx","./src/services/api.ts","./src/utils/cn.ts"],"version":"5.9.3"}

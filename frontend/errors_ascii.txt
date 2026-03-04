@@ -1,0 +1,15 @@
+src/components/ui/Button.tsx(2,20): error TS2307: Cannot find module '../utils/cn' or its corresponding type declarations.
+src/components/ui/Button.tsx(30,14): error TS2322: Type '{ children: (Element | ReactNode)[]; disabled: boolean | undefined; form?: string | undefined; formAction?: string | ((formData: FormData) => void | Promise<...>) | undefined; ... 286 more ...; className: any; }' is not assignable to type 'Omit<HTMLMotionProps<"button">, "ref">'.
+  Types of property 'onAnimationStart' are incompatible.
+    Type 'AnimationEventHandler<HTMLButtonElement> | undefined' is not assignable to type '((definition: AnimationDefinition) => void) | undefined'.
+      Type 'AnimationEventHandler<HTMLButtonElement>' is not assignable to type '(definition: AnimationDefinition) => void'.
+        Types of parameters 'event' and 'definition' are incompatible.
+          Type 'AnimationDefinition' is not assignable to type 'AnimationEvent<HTMLButtonElement>'.
+            Type 'string' is not assignable to type 'AnimationEvent<HTMLButtonElement>'.
+src/components/ui/Card.tsx(2,20): error TS2307: Cannot find module '../utils/cn' or its corresponding type declarations.
+src/components/ui/Card.tsx(22,17): error TS2322: Type 'ReactNode | MotionValueNumber | MotionValueString' is not assignable to type 'ReactNode'.
+  Type 'MotionValueNumber' is not assignable to type 'ReactNode'.
+src/components/ui/Input.tsx(2,20): error TS2307: Cannot find module '../utils/cn' or its corresponding type declarations.
+src/pages/AnalyticsPage.tsx(4,50): error TS2724: '"lucide-react"' has no exported member named 'Global'. Did you mean 'Goal'?
+src/pages/AnalyticsPage.tsx(91,30): error TS2304: Cannot find name 'BarChart2'.
+src/pages/AnalyticsPage.tsx(148,51): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
