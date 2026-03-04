@@ -57,10 +57,12 @@ jobs:
 
     - name: Run Backend Tests
       env:
-        DB_URL: jdbc:mysql://localhost:3306/url_shortener?useSSL=false&serverTimezone=UTC
+        DB_URL: jdbc:mysql://127.0.0.1:3306/url_shortener?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
         DB_USERNAME: root
         DB_PASSWORD: password
         GEMINI_API_KEY: fake-test-key
+        SPRING_DATA_REDIS_HOST: 127.0.0.1
+        SPRING_DATA_REDIS_PORT: 6379
       run: |
         cd backend
         ./mvnw test
